@@ -1,9 +1,13 @@
+import { useState } from 'react'
 import './App.css'
-
-function App() {
+import DropDown from './Dropdown/dropdown' 
+ 
+function App() {  
+  const options =["Drop-1","Drop-2","Drop-3","Drop-4","Drop-5"]
   return (
     <>
-     <h1>Feature Dropdown</h1>
+     <h3>Feature Dropdown</h3>
+     <DropDown options={options} label={"Choose a Items"}/>
     </>
   )
 }
