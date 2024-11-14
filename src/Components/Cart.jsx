@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, content, style }) => {
+const Card = ({ title, content, style , className}) => {
   return (
     <div style={style} className={className}>
       <h3>{title}</h3>
@@ -10,3 +10,4 @@ const Card = ({ title, content, style }) => {
 };
 
 export default Card;
+
