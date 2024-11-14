@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FiChevronDown } from "react-icons/fi";
 export default function DropDown({options,label}) {
     const [isopen,setIsOpen] = useState(false);
 
