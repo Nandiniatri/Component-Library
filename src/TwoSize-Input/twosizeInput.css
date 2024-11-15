@@ -1,0 +1,25 @@
+.twotype-inputContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.small-input{
+    width: 70px;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    color: #333;
+    background-color: #f9f9f9;
+    
+}
+.medium-input{
+    width: 300px;
+    padding: 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    color: #333;
+    background-color: #f9f9f9;
+}

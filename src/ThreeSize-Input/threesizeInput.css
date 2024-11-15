@@ -1,0 +1,24 @@
+.threeType-inputConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 500px;
+}
+.search-inputIcon{
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-input{
+    width: 150px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.second-input{
+    width: 150px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+}
