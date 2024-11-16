@@ -1,10 +1,17 @@
 * {
     margin: 5px;
     padding: 5px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-:root {
+body{
+    width: 1000px;
+    border: solid;
+    background-color: #efeded;
+}
+
+
+:root { 
     --gap: 20px;
     --button-width: 120px;
     --button-height: 40px;
@@ -24,15 +31,12 @@
     --border-radius: 5px;
     --hover-color1: #4096ff;
     --hover-color2: rgb(0 0 0 / 75%);
+    --text-align:center;
 }
 
-/* .div1 {
-    display: flex;
-    flex-direction: row;
-    gap: 20px; 
-    align-items: center;
-} */
-
+button{
+    border: solid red;
+}
 .Default {
     border: none;
     background-color: var(--color2);
@@ -43,7 +47,10 @@
     font-size: var(--font-size);
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    border: solid;
+    display: flex;
+    align-items: center;
 }
 
 .Default:active {
@@ -572,12 +579,80 @@
     color: #1890ff;
 }
 
-
-body{
-    width: 500px;
-    border: solid;
-    background-color: #efeded;
+.buttonIcon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
 }
+
+.buttonIcon Button {
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center; 
+    gap: 8px; 
+}
+
+.buttonIconPosition{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+.buttonIconPosition Button {
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center; 
+    gap: 8px; 
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.icon-container {
+    display: inline-block;
+    margin: 0 8px;
+    border: solid;
+}
+.hover-text {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.4s ease;
+}
+.buttonIconPosition:hover .hover-text {
+    opacity: 1;  
+}
+
+
+.button-text{
+    border: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .btn1 {

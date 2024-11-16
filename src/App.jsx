@@ -51,20 +51,41 @@ function App() {
         </div>
       </div>
 
+
       <div>
         <h3>Button With Icon</h3>
-          <Button className="search" type="primary" icon={<IoIosSearch />}></Button>
+        <div className='buttonIcon'>
+          <Button className="search" type="primary" hoverText="Search Wala"><IoIosSearch /></Button>
           <Button className="A" type="primary">A</Button>
-          <Button icon={<IoIosSearch />}>Search</Button>
-          <Button icon={<IoIosSearch />}></Button>
-          <Button icon={<IoIosSearch />}>Search</Button>
-          <Button icon={<IoIosSearch />}></Button>
-          <Button icon={<IoIosSearch />}>Search</Button>
-          <Button icon={<IoIosSearch />}></Button>
-          <Button icon={<IoIosSearch />}>Search</Button>
-          <Button icon={<IoIosSearch />}></Button>
+          <Button icon={<IoIosSearch />} iconPosition="left">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="left">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="left">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="left">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+        </div>
       </div>
 
+      <div>
+        <h3>Button With Icon Position</h3>
+        <div className='buttonIconPosition'>
+          <Button className="search" type="primary" hoverText="Search Wala"><IoIosSearch /></Button>
+          <Button className="A" type="primary">A</Button>
+          <Button icon={<IoIosSearch />} iconPosition="right">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="right">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="right">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+          <Button icon={<IoIosSearch />} iconPosition="right">Search</Button>
+          <Button icon={<IoIosSearch />} ></Button>
+        </div>
+      </div>
+
+
+      <br />
       <button className='btn1'>Hello</button>
       <button className='btn2'>Hello</button>
       <button className='btn3'>Hello</button>
