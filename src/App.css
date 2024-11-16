@@ -5,10 +5,12 @@
 }
 
 :root{
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --background-color: #f5f5f5;
-  --text-color: #333;
+  --primary-color: #6868cf;
+  --secondary-color: #ffff;
+  --pagebackground-color: #f0f0f0;
+  --white-color: #ffff;
+  --black-color:#000000;
+  --grey-color: grey;
   --font-family: 'Roboto', sans-serif;
   --border-radius: 5px;
 }
