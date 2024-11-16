@@ -35,7 +35,7 @@ function App() {
           <Input type={"spinnerbutton"} className={"simple-input"} placeholder={"input Search Loading default"}/>
       </div>
       <p>{value}</p>
-    </>
+    </>   
   )
 }
 
