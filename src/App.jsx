@@ -34,6 +34,9 @@ function App() {
       <div className='input-container'>
           <Input type={"spinnerbutton"} className={"simple-input"} placeholder={"input Search Loading default"}/>
       </div>
+      <div className='search-inputButtonText'>
+          <Input type={"spinnerButtonText"}/>
+      </div>
       <p>{value}</p>
     </>   
   )

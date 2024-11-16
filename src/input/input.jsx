@@ -28,8 +28,10 @@ export default function Input({ type, value, placeholder, onchange, width, heigh
         backicon= <i className="fa fa-spinner fa-spin" style={{fontSize:'22px'}}></i>
     } else if(type ==="spinnerbutton"){
         backicon = <button><i className="fa fa-spinner fa-spin" style={{fontSize:'22px'}}></i></button>
+    } else if(type ==="spinnerButtonText"){
+        backicon = <button><i className="fa fa-spinner fa-spin" style={{fontSize:'17px'}}></i> Search</button>
     }
-    
+
     const inputField = (<input
         type={type}
         placeholder={placeholder}
