@@ -11,6 +11,7 @@ const ImageComp = ({ ...props }) => {
             height={props.height}
             style={props.style}
             onClick={props.onClick}
+            onChange={props.onChange}
         />
     )
 
