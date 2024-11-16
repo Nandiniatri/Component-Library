@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className='button-main-container'>
-      {/* <div className='div1'>
+      <div className='div1'>
         <h3>Example Of Button</h3>
         <Button className="Default" type="default">Default Button</Button>
         <Button className="Primary" type="primary">Primary Button</Button>
@@ -64,7 +64,7 @@ function App() {
           <Button icon={<IoIosSearch />}></Button>
           <Button icon={<IoIosSearch />}>Search</Button>
           <Button icon={<IoIosSearch />}></Button>
-      </div> */}
+      </div>
 
       <button className='btn1'>Hello</button>
       <button className='btn2'>Hello</button>
