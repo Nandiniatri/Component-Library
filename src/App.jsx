@@ -31,14 +31,30 @@ function App() {
       <div className='input-container'>
         <Input type={"spinner"} className={"simple-input"} placeholder={"input Search Loading default"}/>
       </div>
-      <div className='input-container'>
+      <div className='inputSpinnerbtn-container'>
           <Input type={"spinnerbutton"} className={"simple-input"} placeholder={"input Search Loading default"}/>
       </div>
 
       <div className='inputSpinner-container'>
-        <Input type={'spinnerButtonText'} placeholder={"Search....."}/>
+        <Input type={'spinnerButtonText'} placeholder={"Search....."} />
       </div>
-      <p>{value}</p>
+
+      <div className='btnsearch'>
+        <Input type={"searchbtn"}/>
+      </div>
+
+      <div className='mictype-conatiner'>
+          <Input type={"mic"}/>
+      </div>
+
+      <div className='passwordIcon-container'>
+        <Input type={"passwordIcon"} placeholder={"Input Password"}/>
+      </div>   
+
+      <div className='showpassword-container'>
+          <Input type={"showPassword"} placeholder={"Fill YOUR PASSWORD"}/>
+      </div>
+      <p>{value}</p>  
     </>
   )
 }
