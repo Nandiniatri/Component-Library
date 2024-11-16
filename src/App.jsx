@@ -3,7 +3,6 @@ import Button from './Components/button'
 import { IoIosSearch } from "react-icons/io";
 
 
-
 function App() {
 
   const handleButton = () => {
